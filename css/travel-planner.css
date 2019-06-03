@@ -1,0 +1,36 @@
+body {
+  overflow: visible;
+  z-index: 1;
+}
+
+.jumbrotron {
+  background-color: green;
+}
+
+.bg-custom {
+  background-color: #d9d7d3;
+  /*position: fixed;*/
+  margin: 50px;
+  padding: 10px;
+}
+
+.summary-box {
+  display: block;
+  z-index: 8;
+  -webkit-box-shadow: 6px 15px 22px 0px rgba(0, 0, 0, 0.51);
+  -moz-box-shadow: 6px 15px 22px 0px rgba(0, 0, 0, 0.51);
+  box-shadow: 6px 15px 22px 0px rgba(0, 0, 0, 0.51);
+  padding: 20px;
+  border: 10px;
+  position: fixed;
+  max-height: 70%;
+  overflow-y: auto;
+}
+
+.card-footer {
+  display: block;
+}
+
+#currency {
+  font-weight: bold;
+}
